@@ -95,7 +95,3 @@ def api_tasa():
         return jsonify({"tasa": dato['tasa'], "fecha": str(dato['fecha'])})
     else:
         return jsonify({'error': 'No hay tasa disponible'}), 404
-
-if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
-    app.run(debug=True, host="0.0.0.0", port=port)
