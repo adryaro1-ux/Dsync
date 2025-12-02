@@ -1,7 +1,0 @@
-Flask
-PyMySQL
-beautifulsoup4
-requests
-flask-login
-flask-cors
-python-dotenv
