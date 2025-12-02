@@ -1,8 +1,5 @@
 Flask
-PyMySQL
 beautifulsoup4
 requests
-flask-login
-flask-cors
-pymysql
 python-dotenv
+pymysql
